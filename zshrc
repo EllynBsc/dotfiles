@@ -10,6 +10,16 @@ if [ -x "$(command -v rbenv)" ]; then RPS1='[$(ruby_prompt_info)]$EPS1'; fi
 # Useful plugins for Rails development with Sublime Text
 plugins=(gitfast brew rbenv last-working-dir common-aliases sublime zsh-syntax-highlighting history-substring-search)
 
+alias code="~/code"
+alias gpl="git pull"
+alias gpo="git push origin"
+alias ga="git add"
+alias gc="git commit"
+alias fullstack="~/code/EllynBsc/fullstack-challenges/"
+alias downloads="~/Downloads"
+alias hg="history | grep"
+alias zaina="cd /Users/ellynbouscasse/code/EllynBsc/Projets/zaina"
+
 # Prevent Homebrew from reporting - https://github.com/Homebrew/brew/blob/master/share/doc/homebrew/Analytics.md
 export HOMEBREW_NO_ANALYTICS=1
 
@@ -18,7 +28,7 @@ source "${ZSH}/oh-my-zsh.sh"
 
 # Rails and Ruby uses the local `bin` folder to store binstubs.
 # So instead of running `bin/rails` like the doc says, just run `rails`
-export PATH="./bin:${PATH}:/usr/local/sbin"
+export PATH="./node_modules/.bin:${PATH}:/usr/local/sbin"
 
 # Store your own aliases in the ~/.aliases file and load the here.
 [[ -f "$HOME/.aliases" ]] && source "$HOME/.aliases"
@@ -32,3 +42,4 @@ export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bi
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
+export PATH="/usr/local/opt/curl/bin:$PATH"

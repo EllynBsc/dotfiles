@@ -49,3 +49,8 @@
 [user]
 	email = ellyn.bouscasse@gmail.com
 	name = Ellyn Bouscasse
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

@@ -9,11 +9,17 @@
 		"All Autocomplete",
 		"ApplySyntax",
 		"BracketHighlighter",
+		"Color Highlighter",
+		"ColorPick",
+		"ColorPicker",
+		"DashDoc",
 		"Emmet",
+		"Emmet Css Snippets",
 		"ERB Snippets",
 		"Git",
 		"GitGutter",
 		"JSX",
+		"Material Theme",
 		"Package Control",
 		"SCSS"
 	]
