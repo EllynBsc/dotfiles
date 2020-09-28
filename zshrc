@@ -6,15 +6,6 @@ ZSH_THEME="robbyrussell"
 # Useful oh-my-zsh plugins for Le Wagon bootcamps
 plugins=(git gitfast last-working-dir common-aliases sublime zsh-syntax-highlighting history-substring-search)
 
--alias code="~/code"
--alias gpl="git pull"
--alias gpo="git push origin"
--alias ga="git add"
--alias gc="git commit"
--alias fullstack="~/code/EllynBsc/fullstack-challenges/"
--alias downloads="~/Downloads"
--alias hg="history | grep"
--alias zaina="cd /Users/ellynbouscasse/code/EllynBsc/Projets/zaina"
 
 # (macOS-only) Prevent Homebrew from reporting - https://github.com/Homebrew/brew/blob/master/share/doc/homebrew/Analytics.md
 export HOMEBREW_NO_ANALYTICS=1
