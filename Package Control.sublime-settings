@@ -15,12 +15,19 @@
 		"DashDoc",
 		"Emmet",
 		"Emmet Css Snippets",
+		"Emoji",
+		"Emoji Code",
 		"ERB Snippets",
 		"Git",
 		"GitGutter",
 		"JSX",
 		"Material Theme",
+		"Material Theme - Appbar",
 		"Package Control",
-		"SCSS"
+		"Pretty JSON",
+		"SCSS",
+		"SublimeLinter-contrib-eslint_d",
+		"SublimeLinter-eslint",
+		"SublimeLinter-stylelint"
 	]
 }
